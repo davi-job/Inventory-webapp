@@ -33,13 +33,13 @@ window.onload = () => {
 
 		//Error 2 check
 
-		for (let i = 0; i < 10; i++) {
+		for (let i = 0; i < 11; i++) {
 			if (Number(quantidades[i].value) === 0) {
 				errorTest++;
 			}
 		}
 
-		if (errorTest === 10) {
+		if (errorTest === 11) {
 			alert("Informe a quantidade de canos e/ou cartelas!");
 			valueError = true;
 		}
