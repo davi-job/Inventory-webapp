@@ -33,13 +33,13 @@ window.onload = () => {
 
 		//Error 2 check
 
-		for (let i = 0; i < 11; i++) {
+		for (let i = 0; i < inputsQuantity; i++) {
 			if (Number(quantidades[i].value) === 0) {
 				errorTest++;
 			}
 		}
 
-		if (errorTest === 11) {
+		if (errorTest === inputsQuantity) {
 			alert("Informe a quantidade de canos e/ou cartelas!");
 			valueError = true;
 		}
@@ -62,7 +62,7 @@ window.onload = () => {
 
 		let auxiliarSum = 0;
 
-		for (let i = 0; i < 10; i++) {
+		for (let i = 0; i < inputsQuantity; i++) {
 			auxiliarSum += Number(quantidades[i].value);
 		}
 
@@ -74,7 +74,7 @@ window.onload = () => {
 		//Execution
 
 		if (!valueError) {
-			for (let i = 0; i < 10; i++) {
+			for (let i = 0; i < inputsQuantity; i++) {
 				supportSum += Number(tabelaPesos[i].textContent) * Number(quantidades[i].value);
 			}
 
@@ -86,6 +86,8 @@ window.onload = () => {
 			overlay.classList.toggle("hidden");
 		}
 	}
+
+	const inputsQuantity = 11;
 
 	//VARIÁVEIS PARA A FUNÇÃO CALCULAR
 
