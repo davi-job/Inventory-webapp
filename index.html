@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="index-style.css" />
+		<script src="index-script.js"></script>
+
+		<title>App Balanço</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="main-header">
+				<h1>App Balanço</h1>
+				<button class="reset-btn">Reset</button>
+			</header>
+			<article>
+				<div class="input-total">
+					<h2>Total de peças</h2>
+					<input class="total-pecas" placeholder="..." type="number" autocomplete="off" />
+				</div>
+
+				<div class="total-weight-div">
+					<h2 class="title-total-weight">Peso total das peças</h2>
+					<input class="total-weight" placeholder="..." type="number" autocomplete="off" />
+				</div>
+
+				<div class="base-info">
+					<h2 class="info-title">Informações da peça medida</h2>
+					<input class="info-peso" placeholder="Peso" type="number" autocomplete="off" />
+					<input class="info-metragem" placeholder="Metragem" type="number" autocomplete="off" />
+				</div>
+
+				<div class="input-peca">
+					<h2 class="input-main-title">Quantidades</h2>
+
+					<h3 class="canos-title">Cano</h3>
+
+					<div class="tabela-input tabela-cano">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">366</h5>
+					</div>
+
+					<h3 class="cartelas-title">Cartelas</h3>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">130</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">160</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">175</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">290</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">400</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">435</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">550</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">625</h5>
+					</div>
+
+					<div class="tabela-input">
+						<input class="input-quantidade" id="i1" placeholder="0" type="number" autocomplete="off" />
+						<h5 class="x">X</h5>
+						<h5 class="tabela-pesos">730</h5>
+					</div>
+				</div>
+			</article>
+			<div class="finish">
+				<button class="end-button">Calcular</button>
+			</div>
+		</div>
+
+		<div class="overlay hidden">
+			<div class="content">
+				<header>
+					<h1 class="overlay-title">Resultado</h1>
+				</header>
+				<article>
+					<h2 class="results">254m</h2>
+					<button class="reset-button">Reset</button>
+				</article>
+			</div>
+		</div>
+	</body>
+</html>

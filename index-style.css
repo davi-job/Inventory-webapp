@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+	font-family: sans-serif;
+
+	padding: 30px;
+
+	background-image: linear-gradient(to bottom right, rgb(241, 241, 241) 40%, rgb(158, 158, 158) 100%);
+}
+
+/* Styling the container */
+
+.container {
+	position: relative;
+
+	width: 450px;
+	border: 5px solid #000;
+	padding: 40px;
+
+	margin: 0 auto;
+}
+
+.main-header {
+	border-bottom: 5px solid #000;
+}
+
+.main-header h1 {
+	margin-bottom: 30px;
+}
+
+.reset-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	background-color: #000;
+	color: #e7e7e7;
+
+	font-size: 16px;
+	text-align: center;
+
+	padding: 5px 15px;
+
+	border: 0;
+	border-left: 5px solid #000;
+	border-bottom: 5px solid #000;
+
+	cursor: pointer;
+}
+
+.reset-btn:hover {
+	background-color: #ffffff33;
+	color: #000;
+}
+
+.input-total {
+	width: 50%;
+	margin: 45px auto 0;
+
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.total-pecas {
+	margin-top: 5px;
+	padding: 5px;
+
+	text-align: center;
+
+	background-color: #e7e7e7;
+	border: 1px solid #000;
+}
+
+.total-weight-div {
+	width: 75%;
+
+	margin: 60px auto 0;
+
+	text-align: center;
+}
+
+.title-total-weight {
+	font-size: 16px;
+}
+
+.total-weight {
+	padding: 7px;
+	margin-top: 3px;
+}
+
+.base-info {
+	position: relative;
+
+	margin-top: 25px;
+
+	text-align: center;
+}
+
+.info-title {
+	font-size: 18px;
+}
+
+.info-peso,
+.info-metragem {
+	padding: 5px;
+	margin-top: 3px;
+}
+
+.input-peca {
+	position: relative;
+	width: 75%;
+
+	margin: 40px auto 0;
+
+	text-align: center;
+}
+
+.input-main-title {
+	font-size: 18px;
+
+	margin-bottom: 25px;
+}
+
+.input-title {
+	display: inline-block;
+
+	font-size: 12px;
+
+	position: absolute;
+	top: -15px;
+}
+
+.canos-title {
+	margin-bottom: -30px;
+
+	font-size: 14px;
+}
+
+.cartelas-title {
+	margin-bottom: -9px;
+
+	font-size: 14px;
+}
+
+.tabela-input {
+	margin-top: 15px;
+}
+
+.tabela-cano {
+	margin: 35px 0 25px;
+}
+
+.input-quantidade {
+	padding: 2px 0;
+	padding-left: 4px;
+	width: 50px;
+}
+
+.tabela-pesos,
+.x {
+	display: inline;
+}
+
+.tabela-pesos {
+	background-color: #fff;
+	border: 1px solid #8f8f9d;
+	border-radius: 6%;
+
+	padding: 2px 5px;
+}
+
+.finish {
+	margin: 55px -40px -40px;
+	text-align: center;
+}
+
+.end-button {
+	padding: 10px;
+	width: 100%;
+
+	font-size: 18px;
+	font-weight: bold;
+
+	border: none;
+	border-top: 5px solid #000;
+
+	background-color: #000;
+	color: #e7e7e7;
+
+	cursor: pointer;
+}
+
+.end-button:hover {
+	background-color: #ffffff33;
+	color: #000;
+}
+
+/* Styling the Overlay */
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background-color: #ffffff00;
+	backdrop-filter: blur(5px);
+
+	width: 100%;
+	height: 101.3%;
+}
+
+.content {
+	position: relative;
+
+	background-image: linear-gradient(to bottom right, rgb(241, 241, 241) 40%, rgb(207, 207, 207) 100%);
+	border: 5px solid #000;
+
+	width: 600px;
+	height: 300px;
+
+	margin: 300px auto auto;
+	border-radius: 15px;
+}
+
+.content header {
+	border-bottom: 5px solid #000;
+}
+
+.content article {
+	text-align: center;
+}
+
+.overlay-title {
+	margin: 15px 0;
+}
+
+.results {
+	margin-top: 65px;
+	font-size: 32px;
+}
+
+.reset-button {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+
+	padding: 15px;
+
+	border: none;
+	border-top: 5px solid #000;
+
+	background-color: #000;
+	color: #e7e7e7;
+
+	cursor: pointer;
+}
+
+.reset-button:hover {
+	background-color: #ffffff33;
+	color: #000;
+}
+
+.hidden {
+	display: none;
+}
