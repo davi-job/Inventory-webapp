@@ -15,8 +15,6 @@ window.onload = () => {
 
 		quantidades = document.getElementsByClassName("input-quantidade");
 
-		totalPecas = Number(document.querySelector(".total-pecas").value);
-
 		let valueError = false;
 
 		let errorTest = 0;
@@ -53,13 +51,6 @@ window.onload = () => {
 
 		//Error 4 check
 
-		if (totalPecas === 0) {
-			alert("Informe o total de peças!");
-			valueError = true;
-		}
-
-		//Error 5 check
-
 		let auxiliarSum = 0;
 
 		for (let i = 0; i < inputsQuantity; i++) {
@@ -93,7 +84,6 @@ window.onload = () => {
 
 	let pesoBase;
 	let pesoTotal;
-	let totalPecas;
 	let metragemBase;
 
 	let quantidades;
