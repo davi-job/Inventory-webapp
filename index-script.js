@@ -49,19 +49,6 @@ window.onload = () => {
 			valueError = true;
 		}
 
-		//Error 4 check
-
-		let auxiliarSum = 0;
-
-		for (let i = 0; i < inputsQuantity; i++) {
-			auxiliarSum += Number(quantidades[i].value);
-		}
-
-		if (totalPecas !== auxiliarSum && !valueError) {
-			alert("Quantidade informada não é igual a quantidade total!");
-			valueError = true;
-		}
-
 		//Execution
 
 		if (!valueError) {
